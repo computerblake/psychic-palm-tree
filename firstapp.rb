@@ -1,12 +1,12 @@
 require 'sinatra'
 
 get '/' do
-    @title = 'First Page'
+    @title = 'Favorite Movie'
     erb :index
 end
 
 get '/second' do
-    @title = 'Second Page'
+    @title = 'Second Favorite Movie'
     erb :second
     
 end
